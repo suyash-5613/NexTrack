@@ -1,0 +1,140 @@
+@model List<NexTrack.Models.Item>
+@{
+    ViewData["Title"] = "Tree Structure";
+
+    // Build tree structure in the view
+    var itemMap = Model.ToDictionary(i => i.Id);
+    var roots = Model.Where(i => i.ParentId == null).ToList();
+
+    // Build children mapping
+    var childrenMap = new Dictionary<int, List<NexTrack.Models.Item>>();
+    foreach (var item in Model)
+    {
+        if (item.ParentId.HasValue)
+        {
+            if (!childrenMap.ContainsKey(item.ParentId.Value))
+                childrenMap[item.ParentId.Value] = new List<NexTrack.Models.Item>();
+            childrenMap[item.ParentId.Value].Add(item);
+        }
+    }
+
+    int totalItems = Model.Count;
+    int rootCount = roots.Count;
+    int childCount = Model.Count(i => i.ParentId != null);
+}
+
+<div class="d-flex flex-column gap-4 fade-in">
+    <!-- Header -->
+    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-3">
+        <div>
+            <h1 class="h4 fw-bold text-slate-900 mb-1" style="letter-spacing: -0.5px;">Tree Structure</h1>
+            <p class="text-slate-500 small mb-0">View hierarchical parent-child relationships in an expandable tree format.</p>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+            <button class="btn btn-sm text-indigo" onclick="expandAll()">Expand All</button>
+            <button class="btn btn-sm text-slate-600" onclick="collapseAll()">Collapse All</button>
+        </div>
+    </div>
+
+    <!-- Tree Card -->
+    <div class="card card-custom">
+        <div class="card-toolbar d-flex align-items-center gap-2">
+            <i class="bi bi-share text-slate-600"></i>
+            <h6 class="small fw-semibold text-slate-900 mb-0">Item Hierarchy</h6>
+            <span class="ms-auto small text-slate-500">@rootCount root item@(rootCount != 1 ? "s" : "")</span>
+        </div>
+
+        <div class="p-4">
+            @if (!roots.Any())
+            {
+                <div class="py-5 text-center text-slate-500">
+                    <div class="d-flex flex-column align-items-center gap-3">
+                        <div class="empty-state-icon">
+                            <i class="bi bi-share fs-4 text-slate-400"></i>
+                        </div>
+                        <p class="mb-0">No items found. Add some items to view the tree structure.</p>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div id="treeContainer">
+                    @foreach (var root in roots)
+                    {
+                        var vdd = new ViewDataDictionary(new Microsoft.AspNetCore.Mvc.ModelBinding.EmptyModelMetadataProvider(), new Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary());
+                        vdd["ChildrenMap"] = childrenMap;
+                        vdd["Level"] = 0;
+                        @await Html.PartialAsync("_TreeNode", root, vdd)
+                    }
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Statistics -->
+    @if (Model.Any())
+    {
+        <div class="row g-3">
+            <div class="col-sm-4">
+                <div class="card card-custom p-4">
+                    <div class="small text-slate-500 mb-1">Total Items</div>
+                    <div class="fs-4 fw-bold text-slate-900">@totalItems</div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card card-custom p-4">
+                    <div class="small text-slate-500 mb-1">Root Items</div>
+                    <div class="fs-4 fw-bold text-indigo">@rootCount</div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card card-custom p-4">
+                    <div class="small text-slate-500 mb-1">Child Items</div>
+                    <div class="fs-4 fw-bold text-slate-600">@childCount</div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+<script>
+    function expandAll() {
+        document.querySelectorAll('.tree-children').forEach(function (el) {
+            el.style.display = 'block';
+        });
+        document.querySelectorAll('.tree-toggle').forEach(function (el) {
+            el.classList.remove('bi-chevron-right');
+            el.classList.add('bi-chevron-down');
+        });
+    }
+
+    function collapseAll() {
+        document.querySelectorAll('.tree-children').forEach(function (el) {
+            el.style.display = 'none';
+        });
+        document.querySelectorAll('.tree-toggle').forEach(function (el) {
+            el.classList.remove('bi-chevron-down');
+            el.classList.add('bi-chevron-right');
+        });
+    }
+
+    function toggleTreeNode(btn) {
+        var parent = btn.closest('.tree-node');
+        var children = parent.querySelector(':scope > .tree-children');
+        var icon = btn.querySelector('.tree-toggle');
+
+        if (children) {
+            if (children.style.display === 'none') {
+                children.style.display = 'block';
+                icon.classList.remove('bi-chevron-right');
+                icon.classList.add('bi-chevron-down');
+            } else {
+                children.style.display = 'none';
+                icon.classList.remove('bi-chevron-down');
+                icon.classList.add('bi-chevron-right');
+            }
+        }
+    }
+</script>
+}

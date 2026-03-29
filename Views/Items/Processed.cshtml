@@ -1,0 +1,161 @@
+@model List<NexTrack.Models.Item>
+@{
+    ViewData["Title"] = "Processed Items";
+
+    var processedParents = Model;
+    int totalChildren = processedParents.Sum(p => p.Children.Count);
+    double avgChildren = processedParents.Any()
+        ? (double)totalChildren / processedParents.Count
+        : 0;
+}
+
+<div class="d-flex flex-column gap-4 fade-in">
+    <!-- Header -->
+    <div>
+        <h1 class="h4 fw-bold text-slate-900 mb-1" style="letter-spacing: -0.5px;">Processed Items</h1>
+        <p class="text-slate-500 small mb-0">View all processed items with their child components and relationships.</p>
+    </div>
+
+    @if (!processedParents.Any())
+    {
+        <div class="card card-custom p-5">
+            <div class="d-flex flex-column align-items-center gap-3 text-center py-4">
+                <div class="empty-state-icon-lg">
+                    <i class="bi bi-check-circle fs-2 text-slate-400"></i>
+                </div>
+                <div>
+                    <p class="fw-medium text-slate-900 mb-1">No processed items yet</p>
+                    <p class="small text-slate-500 mb-0">Process items to see them listed here with their child components.</p>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <!-- Processed Items Cards -->
+        <div class="d-flex flex-column gap-3">
+            @foreach (var parent in processedParents)
+            {
+                var childWeight = parent.Children.Sum(c => c.Weight);
+                var weightDiff = childWeight - parent.Weight;
+
+                <div class="card card-custom card-hover">
+                    <!-- Parent Header -->
+                    <div class="p-4 processed-header border-bottom">
+                        <div class="d-flex align-items-start justify-content-between gap-3">
+                            <div class="d-flex align-items-start gap-3 flex-grow-1" style="min-width: 0;">
+                                <div class="processed-icon">
+                                    <i class="bi bi-box-seam fs-5"></i>
+                                </div>
+                                <div class="flex-grow-1" style="min-width: 0;">
+                                    <div class="d-flex align-items-center gap-2 flex-wrap">
+                                        <h6 class="fw-semibold text-slate-900 mb-0">@parent.Name</h6>
+                                        <span class="badge-status badge-processed">
+                                            <i class="bi bi-check-circle-fill"></i> Processed
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2 mt-1 small text-slate-600 flex-wrap">
+                                        <span class="fw-medium">Original Weight: @parent.Weight kg</span>
+                                        <span class="text-slate-400">•</span>
+                                        <span class="d-flex align-items-center gap-1">
+                                            <i class="bi bi-calendar3" style="font-size: 0.7rem;"></i>
+                                            @parent.CreatedAt.ToString("MMM dd, yyyy HH:mm")
+                                        </span>
+                                        <span class="text-slate-400">•</span>
+                                        <span class="font-monospace text-slate-500" style="font-size: 0.7rem;">ID: @parent.Id</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-shrink-0 text-end">
+                                <div style="font-size: 0.7rem;" class="text-slate-500 mb-1">Total Children</div>
+                                <div class="fs-4 fw-bold text-indigo">@parent.Children.Count</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Children -->
+                    <div class="p-4">
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <i class="bi bi-layers text-slate-600 small"></i>
+                            <h6 class="small fw-semibold text-slate-700 mb-0">Child Components</h6>
+                        </div>
+
+                        @if (!parent.Children.Any())
+                        {
+                            <div class="text-center py-4 text-slate-500 small">
+                                No child components found for this item.
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="d-flex flex-column gap-2">
+                                @{ int idx = 1; }
+                                @foreach (var child in parent.Children)
+                                {
+                                    var pct = parent.Weight > 0 ? ((double)child.Weight / (double)parent.Weight * 100) : 0;
+
+                                    <div class="d-flex align-items-center gap-3 p-3 bg-slate-50 rounded-3 child-row-hover">
+                                        <div class="child-number flex-shrink-0">@idx</div>
+                                        <div class="flex-grow-1" style="min-width: 0;">
+                                            <div class="fw-medium text-slate-900 small">@child.Name</div>
+                                            <div class="font-monospace text-slate-500" style="font-size: 0.65rem;">ID: @child.Id</div>
+                                        </div>
+                                        <div class="flex-shrink-0 text-end">
+                                            <div class="small fw-semibold text-slate-900">@child.Weight kg</div>
+                                            <div class="text-slate-500" style="font-size: 0.7rem;">@pct.ToString("F1")% of total</div>
+                                        </div>
+                                        <span class="badge-status @(child.Status == "processed" ? "badge-processed" : "badge-pending")" style="font-size: 0.65rem;">
+                                            @child.Status
+                                        </span>
+                                    </div>
+
+                                    idx++;
+                                }
+                            </div>
+
+                            <!-- Summary -->
+                            <div class="mt-3 pt-3 border-top d-flex align-items-center justify-content-between small">
+                                <span class="text-slate-600 fw-medium">Total Child Weight:</span>
+                                <div class="d-flex align-items-center gap-2">
+                                    <span class="fw-semibold text-slate-900">@childWeight kg</span>
+                                    @if (Math.Abs(weightDiff) < 0.01m)
+                                    {
+                                        <span class="badge-sm badge-processed">✓ Matches parent</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge-sm badge-pending">
+                                            @(weightDiff > 0 ? "+" : "")@weightDiff.ToString("F2") kg difference
+                                        </span>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Statistics -->
+        <div class="row g-3">
+            <div class="col-sm-4">
+                <div class="card card-custom p-4">
+                    <div class="small text-slate-500 mb-1">Processed Items</div>
+                    <div class="fs-4 fw-bold" style="color: var(--green-700);">@processedParents.Count</div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card card-custom p-4">
+                    <div class="small text-slate-500 mb-1">Total Children</div>
+                    <div class="fs-4 fw-bold text-indigo">@totalChildren</div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card card-custom p-4">
+                    <div class="small text-slate-500 mb-1">Avg. Children per Item</div>
+                    <div class="fs-4 fw-bold text-slate-900">@avgChildren.ToString("F1")</div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

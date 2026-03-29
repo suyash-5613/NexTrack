@@ -1,0 +1,280 @@
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.csproj.AssemblyReference.cache
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.AssemblyInfoInputs.cache
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.AssemblyInfo.cs
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.csproj.CoreCompileInputs.cache
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.RazorAssemblyInfo.cache
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.RazorAssemblyInfo.cs
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\appsettings.Development.json
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\appsettings.json
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\NexTrack.staticwebassets.runtime.json
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\NexTrack.staticwebassets.endpoints.json
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\NexTrack.exe
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\NexTrack.deps.json
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\NexTrack.runtimeconfig.json
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\NexTrack.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\NexTrack.pdb
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Azure.Core.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Azure.Identity.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Humanizer.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.CodeDom.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\scopedcss\bundle\NexTrack.styles.css
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\scopedcss\projectbundle\NexTrack.bundle.scp.css
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\staticwebassets.build.json
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\staticwebassets.development.json
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\swae.build.ex.cache
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.csproj.Up2Date
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.dll
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\refint\NexTrack.dll
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.pdb
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\NexTrack.genruntimeconfig.cache
+D:\Projects\Item Processing System UI\NexTrack\obj\Debug\net8.0\ref\NexTrack.dll
+D:\Projects\Item Processing System UI\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\appsettings.Development.json
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\appsettings.json
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\NexTrack.staticwebassets.endpoints.json
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\NexTrack.staticwebassets.runtime.json
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\NexTrack.exe
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\NexTrack.deps.json
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\NexTrack.runtimeconfig.json
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\NexTrack.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\NexTrack.pdb
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Azure.Core.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Azure.Identity.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Humanizer.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.CodeDom.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Internship_FullStack\NexTrack\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.csproj.AssemblyReference.cache
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.AssemblyInfoInputs.cache
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.AssemblyInfo.cs
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.csproj.CoreCompileInputs.cache
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.RazorAssemblyInfo.cache
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.RazorAssemblyInfo.cs
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\scopedcss\bundle\NexTrack.styles.css
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\scopedcss\projectbundle\NexTrack.bundle.scp.css
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\staticwebassets.build.json
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\staticwebassets.development.json
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\swae.build.ex.cache
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.csproj.Up2Date
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.dll
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\refint\NexTrack.dll
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.pdb
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.genruntimeconfig.cache
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\ref\NexTrack.dll

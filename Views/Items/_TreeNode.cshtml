@@ -1,0 +1,64 @@
+@model NexTrack.Models.Item
+@{
+    var childrenMap = ViewData["ChildrenMap"] as Dictionary<int, List<NexTrack.Models.Item>>;
+    var level = (int)ViewData["Level"]!;
+    var hasChildren = childrenMap != null && childrenMap.ContainsKey(Model.Id);
+    var children = hasChildren ? childrenMap![Model.Id] : new List<NexTrack.Models.Item>();
+}
+
+<div class="tree-node" style="margin-left: @(level * 24)px;">
+    <div class="d-flex align-items-center gap-2 px-3 py-2 rounded-2 tree-row" role="button"
+         @(hasChildren ? "onclick=toggleTreeNode(this)" : "")>
+        <!-- Toggle Icon -->
+        @if (hasChildren)
+        {
+            <i class="bi bi-chevron-right tree-toggle small text-slate-600"></i>
+        }
+        else
+        {
+            <span style="width: 16px;" class="d-inline-block"></span>
+        }
+
+        <!-- Item Icon -->
+        <div class="tree-icon @(level == 0 ? "tree-icon-root" : "tree-icon-child")">
+            <i class="bi @(level == 0 ? "bi-box-seam" : "bi-layers") small"></i>
+        </div>
+
+        <!-- Item Info -->
+        <div class="flex-grow-1" style="min-width: 0;">
+            <div class="d-flex align-items-center gap-2">
+                <span class="fw-medium text-slate-900 text-truncate small">@Model.Name</span>
+                <span class="badge-status @(Model.Status == "processed" ? "badge-processed" : "badge-pending")" style="font-size: 0.65rem;">
+                    @Model.Status
+                </span>
+            </div>
+            <div class="text-slate-500" style="font-size: 0.7rem;">
+                Weight: @Model.Weight kg
+                @if (hasChildren)
+                {
+                    <span>• @children.Count child@(children.Count > 1 ? "ren" : "")</span>
+                }
+            </div>
+        </div>
+
+        <!-- Count Badge -->
+        @if (hasChildren)
+        {
+            <div class="tree-count-badge">@children.Count</div>
+        }
+    </div>
+
+    <!-- Children -->
+    @if (hasChildren)
+    {
+        <div class="tree-children" style="display: none;">
+            @foreach (var child in children)
+            {
+                var childVdd = new ViewDataDictionary(new Microsoft.AspNetCore.Mvc.ModelBinding.EmptyModelMetadataProvider(), new Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary());
+                childVdd["ChildrenMap"] = childrenMap;
+                childVdd["Level"] = level + 1;
+                @await Html.PartialAsync("_TreeNode", child, childVdd)
+            }
+        </div>
+    }
+</div>

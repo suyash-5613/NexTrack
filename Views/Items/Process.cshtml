@@ -1,0 +1,180 @@
+@model NexTrack.Models.ProcessItemViewModel
+@{
+    ViewData["Title"] = "Process Item";
+}
+
+<div class="d-flex flex-column gap-4 fade-in">
+    <!-- Header -->
+    <div>
+        <h1 class="h4 fw-bold text-slate-900 mb-1" style="letter-spacing: -0.5px;">Process Item</h1>
+        <p class="text-slate-500 small mb-0">Break down a parent item into multiple child components with their individual weights.</p>
+    </div>
+
+    <!-- Success Alert -->
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success-custom d-flex align-items-start gap-2 py-3" role="alert">
+            <i class="bi bi-check-circle-fill text-success mt-1 flex-shrink-0"></i>
+            <div>
+                <p class="small fw-medium mb-0" style="color: var(--green-700);">@TempData["Success"]</p>
+            </div>
+        </div>
+    }
+
+    <!-- Form Card -->
+    <div class="card card-custom">
+        <form asp-action="Process" method="post" class="p-4 d-flex flex-column gap-4">
+            @Html.AntiForgeryToken()
+
+            <!-- Validation Summary -->
+            @if (!ViewData.ModelState.IsValid && ViewData.ModelState.ErrorCount > 0)
+            {
+                <div class="alert-error d-flex align-items-start gap-2 p-3 rounded-3">
+                    <i class="bi bi-exclamation-circle text-danger mt-1"></i>
+                    <div asp-validation-summary="All" class="small text-danger"></div>
+                </div>
+            }
+
+            <!-- Parent Selection -->
+            <div>
+                <label asp-for="ParentId" class="form-label small fw-medium text-slate-700">Select Parent Item</label>
+                <select asp-for="ParentId" class="form-select form-select-custom-lg">
+                    <option value="0">Choose an item to process...</option>
+                    @foreach (var item in Model.PendingItems)
+                    {
+                        <option value="@item.Id">@item.Name - @item.Weight kg</option>
+                    }
+                </select>
+                <span asp-validation-for="ParentId" class="small text-danger"></span>
+                @if (!Model.PendingItems.Any())
+                {
+                    <p class="small mt-1 d-flex align-items-center gap-1" style="color: var(--amber-700);">
+                        <i class="bi bi-exclamation-circle" style="font-size: 0.75rem;"></i>
+                        No pending items available. Please add items first.
+                    </p>
+                }
+            </div>
+
+            <!-- Children Section -->
+            <div>
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div>
+                        <h6 class="fw-medium text-slate-900 mb-0 small">Child Items</h6>
+                        <p class="text-slate-500 mb-0" style="font-size: 0.75rem;">Add components that result from processing this item</p>
+                    </div>
+                    <button type="button" class="btn btn-sm text-indigo d-inline-flex align-items-center gap-1"
+                            onclick="addChildRow()">
+                        <i class="bi bi-plus-lg"></i> Add More
+                    </button>
+                </div>
+
+                <div id="childrenContainer">
+                    @for (int i = 0; i < Model.Children.Count; i++)
+                    {
+                        <div class="child-row bg-slate-50 border rounded-3 p-3 mb-3" data-index="@i">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="flex-shrink-0 child-number d-flex align-items-center justify-content-center mt-4">
+                                    @(i + 1)
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <label class="form-label small fw-medium text-slate-700" style="font-size: 0.75rem;">Item Name</label>
+                                            <input type="text" name="Children[@i].Name" value="@Model.Children[i].Name"
+                                                   class="form-control form-control-sm form-control-custom"
+                                                   placeholder="e.g., Component A" />
+                                            <span class="field-validation-valid small text-danger" data-valmsg-for="Children[@i].Name"></span>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label small fw-medium text-slate-700" style="font-size: 0.75rem;">Weight (kg)</label>
+                                            <input type="number" name="Children[@i].Weight" value="@Model.Children[i].Weight"
+                                                   class="form-control form-control-sm form-control-custom"
+                                                   placeholder="0.00" min="0.01" step="0.01" />
+                                            <span class="field-validation-valid small text-danger" data-valmsg-for="Children[@i].Weight"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                @if (Model.Children.Count > 1)
+                                {
+                                    <button type="button" class="btn btn-icon btn-icon-danger flex-shrink-0 mt-4"
+                                            onclick="removeChildRow(this)" title="Remove">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="pt-3 border-top d-flex justify-content-end gap-2">
+                <a href="@Url.Action("Process")" class="btn btn-secondary-custom">Reset</a>
+                <button type="submit" class="btn btn-primary-indigo d-inline-flex align-items-center gap-2"
+                        @(Model.PendingItems.Any() ? "" : "disabled")>
+                    <i class="bi bi-diagram-3"></i>
+                    Process Item
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    var childIndex = @Model.Children.Count;
+
+    function addChildRow() {
+        var container = document.getElementById('childrenContainer');
+        var rows = container.querySelectorAll('.child-row');
+        var newIndex = childIndex++;
+
+        var html = `
+            <div class="child-row bg-slate-50 border rounded-3 p-3 mb-3" data-index="${newIndex}">
+                <div class="d-flex align-items-start gap-3">
+                    <div class="flex-shrink-0 child-number d-flex align-items-center justify-content-center mt-4">
+                        ${rows.length + 1}
+                    </div>
+                    <div class="flex-grow-1">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label class="form-label small fw-medium text-slate-700" style="font-size: 0.75rem;">Item Name</label>
+                                <input type="text" name="Children[${newIndex}].Name"
+                                       class="form-control form-control-sm form-control-custom"
+                                       placeholder="e.g., Component A" />
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="form-label small fw-medium text-slate-700" style="font-size: 0.75rem;">Weight (kg)</label>
+                                <input type="number" name="Children[${newIndex}].Weight"
+                                       class="form-control form-control-sm form-control-custom"
+                                       placeholder="0.00" min="0.01" step="0.01" />
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-icon btn-icon-danger flex-shrink-0 mt-4"
+                            onclick="removeChildRow(this)" title="Remove">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </div>
+            </div>`;
+
+        container.insertAdjacentHTML('beforeend', html);
+        updateChildNumbers();
+    }
+
+    function removeChildRow(btn) {
+        var container = document.getElementById('childrenContainer');
+        if (container.querySelectorAll('.child-row').length > 1) {
+            btn.closest('.child-row').remove();
+            updateChildNumbers();
+        }
+    }
+
+    function updateChildNumbers() {
+        var rows = document.querySelectorAll('#childrenContainer .child-row');
+        rows.forEach(function (row, index) {
+            row.querySelector('.child-number').textContent = index + 1;
+        });
+    }
+</script>
+}
