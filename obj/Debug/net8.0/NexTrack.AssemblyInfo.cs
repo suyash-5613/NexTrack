@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NexTrack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df02bd3276221b6e2e46d5babb5f8d03e471ffc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("NexTrack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NexTrack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

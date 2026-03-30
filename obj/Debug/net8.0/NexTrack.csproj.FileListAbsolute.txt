@@ -278,3 +278,4 @@ D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\refint\NexTrack.dll
 D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.pdb
 D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.genruntimeconfig.cache
 D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\ref\NexTrack.dll
+D:\Projects\Internship_FullStack\NexTrack\obj\Debug\net8.0\NexTrack.sourcelink.json
